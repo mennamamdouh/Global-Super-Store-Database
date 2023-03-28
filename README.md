@@ -39,7 +39,7 @@ Let's start the three-level modeling.
    <br>
    <ul>
    <p align="center">
-   <img src="images\Conceptual-Data-Model (1).png">
+   <img src="images\Conceptual-Data-Model.png">
    </p>
    </ul>
 
@@ -49,7 +49,7 @@ Let's start the three-level modeling.
    <br>
    <ul>
    <p align="center">
-   <img src="images\Logical-Data-Model (1).png">
+   <img src="images\Logical-Data-Model.png">
    </p>
    </ul>
 
@@ -59,7 +59,7 @@ Let's start the three-level modeling.
    <br>
    <ul>
    <p align="center">
-   <img src="images\Physical-Data-Model (1).png">
+   <img src="images\Physical-Data-Model.png">
    </p>
    </ul>
 
