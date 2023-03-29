@@ -1,12 +1,12 @@
 # Global-Super-Store-Database-and-Analytics
 
-## <u> About the Project </u> ##
+## About the Project ##
 
 This project is about creating a database for Global Super Store to store their data and do some data analysis to achieve business goals.
 
 <hr>
 
-## <u> About the Data </u> ##
+## About the Data ##
 
 Global Super Store mainly stores data about the orders which have been made by customers. There's information about the order itself such as the customer who made the order, the product requested by the customer and its quantity, the cost which the customer have to pay, and information about shipping. Also, there's information about the customer himself, his name and a detailed address of him. Besides the order and customer information, there's information about the product, its name, category, sub-category, and price.
 
@@ -14,7 +14,7 @@ All those information is stored in __ONLY ONE__ dataset. This makes the data dif
 
 <hr>
 
-## <u> Data Modeling </u> ##
+## Data Modeling ##
 
 To well-design the database, we start with the Entity Relationship Diagram. This methodology requires dividing the information in the dataset into entities, and defining the relationship between them.
 
@@ -94,5 +94,25 @@ Let's start the three-level modeling.
    <img src="images\database.png">
    </p>
    </ul>
+
+<hr>
+
+## Build a Dimensional Data Model for Global Super Store ##
+
+It's much more easier for data analysts to deal with Dimensional Data Models, as they optimizes the database for fast retrieval of the data.
+
+Dimensional Data Model consists of _dimensions_, the categorical data which we're interested in and give us the context of the analysis, and _facts_, the collection of measurement and metrics that any business needs to analyze.
+
+The most common schema that any dimensional data model can be built with is the __Star Schema__. It has the _fact_ table at its center, and all the _dimensions_ around it.
+
+Here, the _fact_ table is __Sales__, and the _dimensions_ are divided into __Location__, __Time__, and __Products__
+
+<u>The implementation of the Star Schema on MySQL Workbench:</u>
+
+<ul>
+<p align="center">
+<img src="images\star-schema.png">
+</p>
+</ul>
 
 <hr>
