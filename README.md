@@ -2,7 +2,7 @@
 
 ## About the Project ##
 
-This project is about creating a database for Global Super Store to store their data and do some data analysis to achieve business goals.
+This project is about designing a database model for Global Super Store to store their data and do some data analysis in order to achieve business goals. It's the final project of the 7th course __Advanced Data Modeling__ of Meta Database Engineer Professional Certificate on Coursera.
 
 <hr>
 
