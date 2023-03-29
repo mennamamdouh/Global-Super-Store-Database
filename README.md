@@ -1,4 +1,4 @@
-# Global-Super-Store-Database-and-Analytics
+# Global-Super-Store-Database
 
 ## About the Project ##
 
