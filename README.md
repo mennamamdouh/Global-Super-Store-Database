@@ -38,7 +38,7 @@ Let's start the three-level modeling.
 
    <br>
    <p align="center">
-   <img src="images\Conceptual-Data-Model.png">
+   <img src="https://user-images.githubusercontent.com/70551007/228538911-c51183df-8e34-42f0-9022-a4e0d4a1a683.png">
    </p>
 
 2. <u>Logical Data Model</u>:
@@ -46,7 +46,7 @@ Let's start the three-level modeling.
    Logical Data Model contains more information about the attributes of each entity such as the data type, as well as the relationship between each 2 entities.
    <br>
    <p align="center">
-   <img src="images\Logical-Data-Model.png">
+   <img src="https://user-images.githubusercontent.com/70551007/228539032-ebb42d79-5fcf-4174-aa70-99d1ba7d7b6a.png">
    </p>
 
 3. <u>Physical Data Model</u>:
@@ -54,7 +54,7 @@ Let's start the three-level modeling.
    Physical Data Model describes a database-specific implementation of the database model. It contains information about the database columns, keys, constraints, and other RDBMS (Relational Database Management System) features.
    <br>
    <p align="center">
-   <img src="images\Physical-Data-Model.png">
+   <img src="https://user-images.githubusercontent.com/70551007/228539132-f9e336a4-df77-4ff1-973f-f878462e2024.png">
    </p>
 
 <hr>
@@ -65,21 +65,21 @@ Let's start the three-level modeling.
    
     The implementation of the ER-Diagram (Entity Relationship Diagram) of the database on MySQL Workbench.
     <ul>
-    <img src="images\ER-Diagram.png">
+    <img src="https://user-images.githubusercontent.com/70551007/228539232-b0a2582b-a51f-40f8-93ae-e7b0b6b5fdbc.png">
     </ul>
 
 2. Database implementation using __Forward Engineer__ method
    
-   Using this method, we can extract a SQL script that creates the database with its tables, columns and constraints, and run this script to have the database ready in MySQL Server.
+   Using this method, we can extract a SQL script that creates the database with its tables, columns and constraints from its ERD, and run this script to have the database ready in MySQL Server.
 
    This is a part from the code:
    <ul>
-   <img src="images\part_of_SQL_script.png">
+   <img src="https://user-images.githubusercontent.com/70551007/228539323-6e236702-221f-4e05-8cae-30b8f828ddb4.png">
    </ul>
 
    After executing the SQL script, the database will be ready-to-use in the server.
    <ul>
-   <img src="images\database.png">
+   <img src="https://user-images.githubusercontent.com/70551007/228539575-cf32414d-2ff9-40b2-9b51-8908dc0457ba.png">
    </ul>
 
 <hr>
@@ -97,7 +97,7 @@ Here, the _fact_ table is __Sales__, and the _dimensions_ are divided into __Loc
 <u>The implementation of the Star Schema on MySQL Workbench:</u>
 
 <ul>
-<img src="images\star-schema.png">
+<img src="https://user-images.githubusercontent.com/70551007/228539670-780d9cc6-9f84-4824-abc4-8002f17e10ab.png">
 </ul>
 
 <hr>
