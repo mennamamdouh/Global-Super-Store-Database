@@ -37,31 +37,25 @@ Let's start the three-level modeling.
    - __Relationship:__ Dependency or association between two entities
 
    <br>
-   <ul>
    <p align="center">
    <img src="images\Conceptual-Data-Model.png">
    </p>
-   </ul>
 
 2. <u>Logical Data Model</u>:
    
    Logical Data Model contains more information about the attributes of each entity such as the data type, as well as the relationship between each 2 entities.
    <br>
-   <ul>
    <p align="center">
    <img src="images\Logical-Data-Model.png">
    </p>
-   </ul>
 
 3. <u>Physical Data Model</u>:
    
    Physical Data Model describes a database-specific implementation of the database model. It contains information about the database columns, keys, constraints, and other RDBMS (Relational Database Management System) features.
    <br>
-   <ul>
    <p align="center">
    <img src="images\Physical-Data-Model.png">
    </p>
-   </ul>
 
 <hr>
 
@@ -70,11 +64,8 @@ Let's start the three-level modeling.
 1. ER-Diagram of the Data Model
    
     The implementation of the ER-Diagram (Entity Relationship Diagram) of the database on MySQL Workbench.
-    <br>
     <ul>
-    <p align="center">
     <img src="images\ER-Diagram.png">
-    </p>
     </ul>
 
 2. Database implementation using __Forward Engineer__ method
@@ -83,16 +74,12 @@ Let's start the three-level modeling.
 
    This is a part from the code:
    <ul>
-   <p align="center">
    <img src="images\part_of_SQL_script.png">
-   </p>
    </ul>
 
    After executing the SQL script, the database will be ready-to-use in the server.
    <ul>
-   <p align="image">
    <img src="images\database.png">
-   </p>
    </ul>
 
 <hr>
@@ -110,9 +97,7 @@ Here, the _fact_ table is __Sales__, and the _dimensions_ are divided into __Loc
 <u>The implementation of the Star Schema on MySQL Workbench:</u>
 
 <ul>
-<p align="center">
 <img src="images\star-schema.png">
-</p>
 </ul>
 
 <hr>
