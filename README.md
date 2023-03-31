@@ -68,18 +68,48 @@ Let's start the three-level modeling.
     <img src="https://user-images.githubusercontent.com/70551007/228539232-b0a2582b-a51f-40f8-93ae-e7b0b6b5fdbc.png">
     </ul>
 
-2. Database implementation using __Forward Engineer__ method
+2. Database implementation using __Forward Engineer__ tool
    
-   Using this method, we can extract a SQL script that creates the database with its tables, columns and constraints from its ERD, and run this script to have the database ready in MySQL Server.
+   This tool generates a SQL script which creates the database with its tables, columns and constraints from its ERD, and runs this script to have the database ready in MySQL Server.
 
-   This is a part from the code:
+   This is a part from the code that was generated using __Forward Engineer__ tool:
    <ul>
-   <img src="https://user-images.githubusercontent.com/70551007/228539323-6e236702-221f-4e05-8cae-30b8f828ddb4.png">
+   
+   ```sql
+   -- MySQL Workbench Forward Engineering
+
+   SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+   SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+   SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+   -- -----------------------------------------------------
+   -- Schema global_super_store
+   -- -----------------------------------------------------
+
+   -- -----------------------------------------------------
+   -- Schema global_super_store
+   -- -----------------------------------------------------
+   CREATE SCHEMA IF NOT EXISTS `global_super_store` DEFAULT CHARACTER SET utf8 ;
+   USE `global_super_store` ;
+
+   -- -----------------------------------------------------
+   -- Table `global_super_store`.`Customers`
+   -- -----------------------------------------------------
+   CREATE TABLE IF NOT EXISTS `global_super_store`.`Customers` (
+     `CustomerID` VARCHAR(100) NOT NULL,
+     `FullName` VARCHAR(255) NOT NULL,
+     `Segment` VARCHAR(100) NOT NULL,
+     PRIMARY KEY (`CustomerID`))
+   ENGINE = InnoDB;
+   ```
+   
    </ul>
-
-   After executing the SQL script, the database will be ready-to-use in the server.
+   
+   After executing the SQL script, the database will be ready to use on the server.
    <ul>
+   <p align="center">
    <img src="https://user-images.githubusercontent.com/70551007/228539575-cf32414d-2ff9-40b2-9b51-8908dc0457ba.png">
+   </p>
    </ul>
 
 <hr>
